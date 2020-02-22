@@ -1,0 +1,32 @@
+.product-info{
+    width: 100%;
+}
+
+.product-number{
+    min-width: 5%;
+    width: auto;
+}
+.product-code{
+    min-width: 15%;
+    width: auto;
+}
+.product-name{
+    min-width: 315px;
+    width: auto;
+}
+.product-quantity{
+    min-width: 10%;
+    width: auto;
+}
+.product-cost{
+    min-width: 10%;
+    width: auto;
+}
+.product-price{
+    min-width: 10%;
+    width: auto;
+}
+.product-action{
+    min-width: 10%;
+    width: auto;
+}

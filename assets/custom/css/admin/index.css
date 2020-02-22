@@ -1,0 +1,163 @@
+*, body{
+    font-family: Roboto, sans-serif;
+}
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.8);
+    color: snow;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.7em;
+    color: #999;
+}
+
+.sidebar-links, .sidebar-links:hover, .sidebar-links:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: black;
+}
+
+#sidebar ul.components {
+    padding: 10px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: black;
+    text-decoration: none;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: deepskyblue;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: deepskyblue;
+}
+
+.user-position{
+    padding-left: 50px !important;
+    color: rgba(255, 250, 250, 0.8);
+}
+
+.test{
+    border: 1px solid black;
+}
+#content{
+    width: 100%;
+    align-items: normal;
+}
+
+.card-summary{
+    border: 1px solid black;
+    padding: 0;
+}
+.card-summary-top{
+    font-size: 1.4rem;
+    color: snow;
+    font-weight: bolder;
+}
+.card-summary-middle-left{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.card-summary-bottom{
+    color: gray;
+    font-weight: bolder;
+}
+.card-summary-bottom:hover, .card-summary-bottom:focus{
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+}
+
+.bg-lightgreen{
+    background: lightgreen !important;
+}
+.bg-lightblue{
+    background: lightblue !important;
+}
+.bg-darkyellow{
+    background: #abab00 !important;
+}
+.bg-yellow{
+    background: yellow !important;
+}
+.page-section-header{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    border-bottom: 2px groove black;
+}
+
+.item-name{
+    font-size: 1.8rem;
+    font-family: "Roboto Black", sans-serif;
+    border-bottom: 1px solid black;
+}
+.item-details{
+    font-size: 1.14rem;
+}
+.underline{
+    border-bottom: 1px solid black;
+}
